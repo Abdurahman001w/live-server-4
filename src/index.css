@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  max-width: 770px;
+  height: auto;
+margin: auto;
+
+
+}
+.logo_1{
+  width: 154.77px;
+height: 33.25px;
+
+
+}
+.menu_items{
+  display: flex;
+  column-gap: 40px;
+}
+.menu_item a{
+
+  font-size: 18px;
+  font-weight: 600;
+color: black;
+  text-decoration: none;
+
+}
+.menu_item a:hover{
+  color: rgb(10, 10, 131);
+}
+.menu-title{
+
+  align-items: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.line{
+  border: 1px solid #0000000D
+}
+.menu_main{
+text-align: center;
+}
+.button-items{
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+.number{
+
+font-size: 288px;
+font-weight: 500;
+
+text-align: center;
+
+}
+.plus{
+  width: 56px;
+height: 58px;
+font-size: 20px;
+border: none;
+color: #ffff;
+border-radius: 27px;
+
+background: #0FC50B;
+
+}
+.plus:hover{
+  background-color: #087406;
+}
+
+.minus{
+  width: 56px;
+height: 58px;
+font-size: 20px;
+border: none;
+color: #ffff;
+border-radius: 27px;
+
+ background: #F64C4C;
+;
+
+}
+.minus:hover{
+  background-color:  #721515;
+}
+.reset{
+width: 55px;
+height: 58px;
+border: none;
+border-radius:27px ;
+}
+.reset:hover{
+  background-color: rgb(160, 160, 160);
+}
+.reset img{
+  width: 29px;
+height: 32px;
+
+}
+.footer-items{
+  margin-top: 200px;
+  display: flex;
+
+}
+
+.footer-logo{
+  width: 93px;
+height: auto;
+
+}
+.footer-menu_items{
+  display: flex;
+}
+.footer-menu_item{
+  display: flex;
+  margin-left: 40px;
+  column-gap: 30px;
+}
+.footer-last{
+  margin-left: 70px;
+}
+
+.footer-menu_item{
+  font-size: 16px;
+  font-weight: 700;
+
+
+  text-align: center;
+  }
+  .footer-menu_item a{
+    color: #00000080;
+    text-decoration: none;
+  }
+  .footer-menu_item a:hover{color: #000000c0;}
